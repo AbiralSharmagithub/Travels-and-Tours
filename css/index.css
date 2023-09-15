@@ -36,7 +36,7 @@
 }
 #button {
     margin-top: 50px;
-    width: 15%;
+    width: 20%;
     padding: 20px;
     border: 3px solid white;
     border-radius: 5px;
@@ -49,4 +49,67 @@
     background-color: white;
     color: black;
     cursor: pointer;
+}
+@media screen and (min-width:575px) and (max-width:991px) {
+    #hero-heading {
+     font-size: 40px;
+    }
+    #hero-page {
+        font-size:25px;
+    }
+     #button {
+        margin-top: 50px;
+        width: 20%;
+        padding: 20px;
+        border: 3px solid white;
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
+    } 
+}
+@media  screen  and (max-width:813px) {
+    #hero-heading {
+        font-size: 33px;
+    }
+    #hero-page {
+        font-size:20px;
+    }
+    #button
+    {
+        width: 30%;
+        margin-top: 10px;
+    }
+}
+@media  screen and (min-width:461px) and (max-width:541px) {
+    #hero-heading {
+        font-size: 30px;
+    }
+    #hero-page {
+        font-size:18px;
+        width: 90%;
+        position: relative;
+        left: 20PX;
+    }
+    #button {
+        width: 80%;
+        position: absolute;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:461px){
+    #hero-heading {
+        font-size: 25px;
+    }
+    #hero-page {
+        font-size:18px;
+        position: relative;
+        left: 5PX;
+        text-align: center;
+    }
+    #button {
+        width: 80%;
+        position: absolute;
+        bottom: 40px;
+    }
 }
